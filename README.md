@@ -126,6 +126,21 @@ Rotas que necessitam de autorização deve ser informado no cabeçalho da requis
 
 > Authorization: Bearer {token}
 
+
+<h2 align ='center'> Cadastrar produto </h2>
+
+`POST /products - FORMATO DA REQUISIÇÃO`
+
+```json
+{
+  "name": "Blazer Branco Elegante",
+  "price": 490,
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin massa metus, tempus nec ex ac, condimentum convallis diam. Donec at nisi lorem. Aliquam non dolor bibendum, venenatis ante ac, lobortis justo. Vestibulum nec pretium mi, eu consequat dolor.",
+  "image": "https://res.cloudinary.com/dsbkp5841/image/upload/v1687807062/Rectangle_4_hwrkgf.jpg"
+}
+```
+
+
 <h2 align ='center'> Atualizar produto </h2>
 
 `PUT /products/:id - FORMATO DA REQUISIÇÃO`
