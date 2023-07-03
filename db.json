@@ -34,7 +34,8 @@
       "id": 4,
       "name": "Calça Preta",
       "price": 140,
-      "description": "https://res.cloudinary.com/dsbkp5841/image/upload/v1687807062/Rectangle_8_ijrp7v.jpg"
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin massa metus, tempus nec ex ac, condimentum convallis diam. Donec at nisi lorem. Aliquam non dolor bibendum, venenatis ante ac, lobortis justo. Vestibulum nec pretium mi, eu consequat dolor.",
+      "image": "https://res.cloudinary.com/dsbkp5841/image/upload/v1687807062/Rectangle_8_ijrp7v.jpg"
     }
   ]
 }
