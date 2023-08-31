@@ -128,6 +128,23 @@ Rotas que necessitam de autorização deve ser informado no cabeçalho da requis
 > Authorization: Bearer {token}
 
 
+<h2 align = "center"> Autologin </h2>
+
+Essa rota exige autorização mas não precisa de um corpo.
+
+`GET /users/:userId - FORMATO DA RESPOSTA`
+
+```json
+{
+  "email": "johndoe@email.com",
+  "name": "John Doe",
+  "id": 3
+}
+```
+
+
+
+
 <h2 align ='center'> Cadastrar produto </h2>
 
 `POST /products - FORMATO DA REQUISIÇÃO`
